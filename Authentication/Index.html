@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="Css/login.css">
+</head>
+<body>
+    <section>
+        <form>
+            <h1>Inicio</h1>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input id="edtuser" type="email" required>
+                <label for="edtuser">Usuario</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input id="edtpassword" type="password" required>
+                <label for="edtpassword">Contraseña</label>
+            </div>
+            <button id="loginbtn">Iniciar</button>
+            <div class="register">
+                <p>No tengo una cuenta <a href="#">Registrate</a></p>
+            </div>
+        </form>
+    <script type="module" src="/Authentication/Controllers/authentication.js"></script>
+    </section>
+</body>
+</html>
